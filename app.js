@@ -89,15 +89,15 @@ app.get('/del-pagamento/:id', function (req, res) {
       res.send('Erro: não foi excluído' + erro)
    })
 });
-
-
-/*
+//
 const port = 8081;
 app.listen(port, () => {
    console.log(`App rodando na porta http://localhost:${port}`)
 });
-*/
+
+/*
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
     console.log('Umbler listening on port %s', port);
 });
+*/
